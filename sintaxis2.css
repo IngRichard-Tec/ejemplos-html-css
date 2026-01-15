@@ -1,0 +1,18 @@
+#contenedor p{
+    color: yellow;
+}
+
+#contenedor p:first-child{
+    color: blue;
+}
+
+#contenedor p:last-child{
+    color:brown;
+}
+
+/* COMENTARIOS */
+/* un item en eespecifico */
+/* even - PARES; odd - IMPARES*/
+#contenedor p:nth-child(odd) {
+    color: lightgreen;
+}

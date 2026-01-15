@@ -1,0 +1,43 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+/* palabra clave*/
+#aplicacolor1{
+    background-color: red;
+}
+
+/* hexadecimal*/
+#aplicacolor2{
+    background-color: #0a95b8;
+}
+
+/* RGB */
+#aplicacolor3{
+    background-color: rgba(5, 252, 87, 0.731);
+}
+
+/* HSL */
+#aplicacolor4{
+    background-color: hsl(250deg, 30%, 50%);
+}
+
+/* linear-gradient */
+#aplicacolor5{
+    background: linear-gradient(90deg, blue, red);
+}
+
+/*gradient*/
+#aplicacolor6{
+    background: radial-gradient(blue, green, red, orange);
+}
+
+#imagenCuadro{
+    width: 25%;
+    height: 50vh;
+
+    background: blue url(img/MarioBros.jpeg) no-repeat center ;
+}
+
+
